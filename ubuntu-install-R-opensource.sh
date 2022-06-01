@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/sh
+
 echo "Add R-base Repository....."
 add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran40/'
 echo "Running System update....."
