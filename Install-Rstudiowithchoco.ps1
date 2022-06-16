@@ -1,3 +1,4 @@
+	Write-Host "#### Installing Chocolatey #########"
 	$chocoExePath = 'C:\ProgramData\Chocolatey\bin'
 
     if ($($env:Path).ToLower().Contains($($chocoExePath).ToLower())) {
